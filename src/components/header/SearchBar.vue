@@ -8,11 +8,11 @@ const items = [
 
 <template>
   <section class="section-2">
-  <div class="search-bar">
+  <div class="search-bar event-line">
     <div
       v-for="item in items"
       :key="item.key"
-      class="search-item"
+      class="search-item has-line"
     >
       <span class="title">{{ item.title }}</span>
       <span class="desc">{{ item.desc }}</span>
@@ -96,5 +96,23 @@ const items = [
   background: #e61b40;
 }
 
+.has-line {
+  position: relative;
+  padding-left: 24px;
+}
+
+.has-line::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 40px;   
+  background-color: #DDD;
+}
+.event-line:hover .has-line::before {
+  opacity: 0;
+}
 
 </style>

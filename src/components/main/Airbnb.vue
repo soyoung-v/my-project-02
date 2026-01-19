@@ -45,6 +45,6 @@ onMounted(async () => {
   height: 10px;
 }
 
-div.sections { width: 80vw; }
+div.sections { width: 100%; }
 div.sections:not(:first-child) { margin-top: 30px; }
 </style>
