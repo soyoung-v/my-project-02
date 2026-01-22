@@ -56,4 +56,9 @@ svg { display: inline !important; }
 .item .title { color: #000; font-size: 0.9rem;}
 .item .per_pri { color: #000000a9; font-size: 0.8rem; margin-top: 3px; }
 
+@media (min-width: 1887px) {
+.item { width: 240px; }
+.item img { width: 240px; height: 240px; border-radius: 16px; object-fit: cover;}
+}
+
 </style>
