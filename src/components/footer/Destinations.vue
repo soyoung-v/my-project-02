@@ -35,6 +35,7 @@ watch(() => route.path, loadList, { immediate: true })
 
 <template>
 <section class="destinations">
+  <div class="container">
   <h2 class="title">다음 여행을 위한 추천 여행지</h2>
   <nav class="tabs">
     <router-link
@@ -65,14 +66,15 @@ watch(() => route.path, loadList, { immediate: true })
       </button>
     </li>
   </ul>
+  </div>
 </section>
 </template>
 
 <style scoped>
 .destinations {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 30px 30px;
+  width: 100%;
+  margin: 0;
+  padding: 30px 0px;
   background-color: #fafafa;
 }
 
@@ -81,6 +83,7 @@ watch(() => route.path, loadList, { immediate: true })
   font-weight: 400;
   margin-bottom: 10px;
 }
+
 
 .tabs {
   display: flex;

@@ -5,6 +5,7 @@ import { airbnbinfordata } from '../../airbnbinfodata.js'
 
 <template>
 <section class="airbnb-info">
+  <div class="container airbnb-grid">
   <div v-for="(section, idx) in airbnbinfordata" :key="idx" class="info-section">
     <h3 class="section-title">{{ section.title }}</h3>
     <ul class="section-list">
@@ -18,19 +19,20 @@ import { airbnbinfordata } from '../../airbnbinfodata.js'
       </li>
     </ul>
   </div>
+</div>
 </section>
 </template>
 
 <style scoped>
 .airbnb-info {
-  border-bottom: 1px solid #dddddd;
   background-color: #fafafa;
+  width: 100%;
+  padding: 40px 0px 20px;
+}
+.airbnb-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 48px;
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 40px 30px 20px;
 }
 .section-title {
   font-size: 14px;
@@ -56,6 +58,11 @@ import { airbnbinfordata } from '../../airbnbinfodata.js'
 .section-list a:hover {
   text-decoration: underline;
   color: black;
+}
+.airbnb-info > .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
 }
 @media (max-width: 768px) {
   .airbnb-info {

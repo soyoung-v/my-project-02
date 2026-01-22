@@ -50,9 +50,8 @@ const props= defineProps({
   transition: transform 0.3s ease;}
 .heart:hover svg{ transform: scale(1.1);}
 
-.item { width: 200px; }
-.item img { width: 200px; height: 200px; border-radius: 20px;}
-.item:not(:first-child) { margin-left: 10px; }
+.item { width: 180px; }
+.item img { width: 180px; height: 180px; border-radius: 16px; object-fit: cover;}
 svg { display: inline !important; }
 .item .title { color: #000; font-size: 0.9rem;}
 .item .per_pri { color: #000000a9; font-size: 0.8rem; margin-top: 3px; }
