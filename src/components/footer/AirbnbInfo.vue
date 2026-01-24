@@ -71,7 +71,7 @@ import { airbnbinfordata } from '../../airbnbinfodata.js'
   }
   .info-section {
     padding: 10px;
-    border-bottom: 1px solid #dddddd;
+
   }
 }
 </style>

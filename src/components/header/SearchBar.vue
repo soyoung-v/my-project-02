@@ -1,9 +1,35 @@
 <script setup>
-const items = [
-  { key: 'location', title: '여행지', desc: '여행지 검색' },
-  { key: 'date', title: '날짜', desc: '날짜 추가' },
-  { key: 'guest', title: '여행자', desc: '게스트 추가' },
-]
+import { computed } from 'vue'
+
+const props = defineProps({
+  clickTab: String
+})
+
+const items = computed(() => {
+  switch (props.clickTab) {
+    case 'experience':
+      return [
+        { key: 'location', title: '여행지', desc: '도시나 명소로 검색' },
+        { key: 'date', title: '날짜', desc: '날짜 추가' },
+        { key: 'guest', title: '여행자', desc: '게스트 추가' },
+      ]
+
+    case 'service':
+      return [
+        { key: 'location', title: '여행지', desc: '여행지 검색' },
+        { key: 'date', title: '날짜', desc: '날짜 추가' },
+        { key: 'guest', title: '서비스 유형', desc: '서비스 추가' },
+      ]
+
+    case 'stay':
+    default:
+      return [
+        { key: 'location', title: '여행지', desc: '여행지 검색' },
+        { key: 'date', title: '날짜', desc: '날짜 추가' },
+        { key: 'guest', title: '여행자', desc: '게스트 추가' },
+      ]
+  }
+})
 </script>
 
 <template>

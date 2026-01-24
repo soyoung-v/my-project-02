@@ -1,6 +1,4 @@
 <script setup>
-import { ref } from 'vue'
-const clickTab = ref('stay')
 
 const tabs = [
   {
@@ -20,8 +18,14 @@ const tabs = [
   }
 ]
 
+const props = defineProps({
+  clickTab: String
+})
+
+const emit = defineEmits(['change-tab'])
+
 const setClick = (key) => {
-  clickTab.value = key
+  emit('change-tab', key)
 }
 
 const btns = [

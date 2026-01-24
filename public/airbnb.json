@@ -1,6 +1,7 @@
 {
      "sections": [
                             {
+                                "type": "stay",
                                 "__typename": "SectionDataContainer",
                                 "sectionId": "https://www.airbnb.co.kr/s/%EA%B0%95%EB%A6%89%EC%8B%9C/homes?place_id=ChIJWw9PleHlYTURRh09nFHGt4A&refinement_paths%5B%5D=%2Fhomes&checkin=2026-02-03&checkout=2026-02-06&date_picker_type=calendar&adults=1&guests=1",
                                 "loggingData": {
@@ -762,6 +763,7 @@
                                 }
                             },
                             {
+                                "type": "stay",
                                 "__typename": "SectionDataContainer",
                                 "sectionId": "https://www.airbnb.co.kr/s/%EC%86%8D%EC%B4%88%EC%8B%9C/homes?refinement_paths%5B%5D=%2Fhomes&checkin=2026-02-03&checkout=2026-02-06&date_picker_type=calendar&adults=1&guests=1&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2026-02-01&monthly_length=3&monthly_end_date=2026-05-01&price_filter_input_type=2&price_filter_num_nights=3&channel=EXPLORE&search_type=search_query",
                                 "loggingData": {
@@ -1493,6 +1495,7 @@
                                 }
                             },
                             {
+                                "type": "stay",
                                 "__typename": "SectionDataContainer",
                                 "sectionId": "https://www.airbnb.co.kr/s/%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C/homes?refinement_paths%5B%5D=%2Fhomes&checkin=2026-02-03&checkout=2026-02-06&date_picker_type=calendar&adults=1&guests=1&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2026-02-01&monthly_length=3&monthly_end_date=2026-05-01&price_filter_input_type=2&price_filter_num_nights=3&channel=EXPLORE&search_type=search_query",
                                 "loggingData": {
@@ -2254,6 +2257,7 @@
                                 }
                             },
                             {
+                                "type": "stay",
                                 "__typename": "SectionDataContainer",
                                 "sectionId": "https://www.airbnb.co.kr/s/%EB%8C%80%EA%B5%AC%EC%8B%9C/homes?refinement_paths%5B%5D=%2Fhomes&checkin=2026-02-03&checkout=2026-02-06&date_picker_type=calendar&adults=1&guests=1&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2026-02-01&monthly_length=3&monthly_end_date=2026-05-01&price_filter_input_type=2&price_filter_num_nights=3&channel=EXPLORE&search_type=search_query",
                                 "loggingData": {

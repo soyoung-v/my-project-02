@@ -17,6 +17,9 @@ onMounted(async () => {
   .then(res => {state.sections = res.data.sections
     console.log(state.sections)});
 });
+const props = defineProps({
+  clickTab: String
+})
 
 </script>
 
@@ -27,6 +30,7 @@ onMounted(async () => {
     class="sections container"
   >
   <div class="section-inner">
+  <div class="experience-title" v-if="clickTab === 'experience'">현재 계신 곳의 여행자에게 인기 있는 체험</div>
   <div class="title-row">
     <div class="title-left">
       <div class="title_1">{{ item.sectionData.title }}</div>
@@ -85,6 +89,11 @@ onMounted(async () => {
 </template>
 
 <style scoped>
+.experience-title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
 .title-row {
   display: flex;
   justify-content: space-between;
@@ -199,6 +208,9 @@ div.sections:not(:first-child) { margin-top: 30px; }
 @media (max-width: 700px) {
   .section-inner {
     max-width: calc((200px * 2) + (10px * 1));
+  }
+  .experience-title {
+  font-size: 20px;
   }
 }
 @media (min-width: 1887px) {
