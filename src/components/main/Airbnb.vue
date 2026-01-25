@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, reactive} from 'vue';
+import { onMounted, reactive, computed } from 'vue';
 import axios from 'axios';
 import LodgingItem from './LodgingItem.vue';
 import { SwiperSlide, Swiper } from 'swiper/vue';
@@ -20,22 +20,27 @@ onMounted(async () => {
 const props = defineProps({
   clickTab: String
 })
+const filteredSections = computed(() =>
+  state.sections.filter(
+    section => section.type === props.clickTab
+  )
+)
 
 </script>
 
 <template>
   <div
-    v-for="(item, idx) in state.sections"
+    v-for="(item, idx) in filteredSections"
     :key="idx"
     class="sections container"
   >
   <div class="section-inner">
-  <div class="experience-title" v-if="clickTab === 'experience'">현재 계신 곳의 여행자에게 인기 있는 체험</div>
+  <div class="experience-title" v-if="clickTab === 'experience' && idx===0">현재 계신 곳의 여행자에게 인기 있는 체험</div>
   <div class="title-row">
     <div class="title-left">
       <div class="title_1">{{ item.sectionData.title }}</div>
 
-      <a class="title-arrow" :href="item.sectionId" target="_blank" rel="noopener noreferrer">
+      <a v-if="clickTab !== 'service'" class="title-arrow" :href="item.sectionId" target="_blank" rel="noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-105.4 105.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
       </a>
     </div>

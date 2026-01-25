@@ -2258,158 +2258,43 @@
                             },
                             {
                                 "type": "stay",
-                                "__typename": "SectionDataContainer",
                                 "sectionId": "https://www.airbnb.co.kr/s/%EB%8C%80%EA%B5%AC%EC%8B%9C/homes?refinement_paths%5B%5D=%2Fhomes&checkin=2026-02-03&checkout=2026-02-06&date_picker_type=calendar&adults=1&guests=1&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2026-02-01&monthly_length=3&monthly_end_date=2026-05-01&price_filter_input_type=2&price_filter_num_nights=3&channel=EXPLORE&search_type=search_query",
-                                "loggingData": {
-                                    "__typename": "LoggingEventData",
-                                    "loggingId": "HOMES_DESTINATION_GROUPINGS:Daegu",
-                                    "experiments": [],
-                                    "eventData": null,
-                                    "eventDataSchemaName": null
-                                },
                                 "sectionData": {
-                                    "__typename": "HomepageStaysMediumCardCarouselSection",
-                                    "loggingContext": {
-                                        "__typename": "ExploreSectionLoggingContext",
-                                        "backendSearchId": "a2e0ae24-17d2-458c-b1be-de0c6544e6f0",
-                                        "bankaiSectionId": null,
-                                        "searchSessionId": null,
-                                        "sectionId": "0a6faef1-b4bb-4296-8b3e-33d497428d01",
-                                        "sectionIndex": "8",
-                                        "sectionLoggingId": null,
-                                        "sectionTypeUid": "HOMES_DESTINATION_GROUPINGS:Daegu",
-                                        "pageNumber": 2
-                                    },
-                                    "searchParams": {
-                                        "__typename": "ExploreSearchParams",
-                                        "locationSearch": null,
-                                        "params": [
-                                            {
-                                                "__typename": "ExploreSearchParam",
-                                                "inArray": null,
-                                                "key": "flexible_trip_lengths",
-                                                "value": {
-                                                    "__typename": "StringValue",
-                                                    "stringValue": "weekend_trip"
-                                                },
-                                                "valueType": "array"
-                                            },
-                                            {
-                                                "__typename": "ExploreSearchParam",
-                                                "inArray": null,
-                                                "key": "date_picker_type",
-                                                "value": {
-                                                    "__typename": "StringValue",
-                                                    "stringValue": "FLEXIBLE_DATES"
-                                                },
-                                                "valueType": "string"
-                                            },
-                                            {
-                                                "__typename": "ExploreSearchParam",
-                                                "inArray": null,
-                                                "key": "search_type",
-                                                "value": {
-                                                    "__typename": "StringValue",
-                                                    "stringValue": "HOMEPAGE_CAROUSEL_CLICK"
-                                                },
-                                                "valueType": "string"
-                                            }
-                                        ],
-                                        "placeId": "ChIJ1a3vsrjjZTURMC44oCngkro",
-                                        "query": "대구",
-                                        "refinementPaths": [
-                                            "/homes"
-                                        ],
-                                        "resetFilters": null,
-                                        "resetKeys": null,
-                                        "tabId": null
-                                    },
                                     "title": "대구의 인기 숙소",
-                                    "subtitle": null,
                                     "items": [
                                         {
-                                            "__typename": "StaySearchResult",
                                             "contextualPictures": [
                                                 {
-                                                    "__typename": "ExplorePicture",
-                                                    "id": "2355265906",
                                                     "picture": "https://a0.muscache.com/im/pictures/hosting/Hosting-1522318856808831984/original/aa370080-7d93-4e5b-80ca-4171b7082b62.jpeg"
                                                 }
                                             ],
                                             "badges": [
                                                 {
-                                                    "__typename": "ExploreFormattedBadge",
-                                                    "text": "게스트 선호",
-                                                    "style": "LOUD_ROUNDED_PILL",
-                                                    "loggingContext": {
-                                                        "__typename": "ExploreFormattedBadgeLoggingContext",
-                                                        "badgeType": "GUEST_FAVORITE"
-                                                    }
+                                                    "text": "게스트 선호"
                                                 }
                                             ],
                                             "demandStayListing": {
-                                                "__typename": "DemandStayListing",
-                                                "id": "RGVtYW5kU3RheUxpc3Rpbmc6MTUyMjMxODg1NjgwODgzMTk4NA==",
                                                 "listingRatingStats": {
-                                                    "__typename": "DemandEntityRatingStats",
                                                     "overallRatingStats": {
-                                                        "__typename": "DemandReviewRatingStats",
-                                                        "ratingCount": "19",
                                                         "ratingAverage": 5.0
                                                     }
-                                                },
-                                                "wishlistItems": []
-                                            },
-                                            "listingParamOverrides": {
-                                                "__typename": "ExploreListingParamOverrides",
-                                                "adults": null,
-                                                "amenities": [],
-                                                "categoryTag": null,
-                                                "causeId": null,
-                                                "checkin": "2026-03-06",
-                                                "checkout": "2026-03-08",
-                                                "children": null,
-                                                "distanceInKm": null,
-                                                "enableM3PrivateRoom": null,
-                                                "highlightType": null,
-                                                "infants": null,
-                                                "pets": null,
-                                                "photoId": "2355265906",
-                                                "relaxedAmenityIds": [],
-                                                "splitStaysLocationPrecisions": [],
-                                                "splitStaysLocationsAcpIds": [],
-                                                "splitStaysUuid": null
+                                                }
                                             },
                                             "structuredDisplayPrice": {
-                                                "__typename": "StructuredDisplayPrice",
                                                 "primaryLine": {
-                                                    "__typename": "QualifiedDisplayPriceLine",
                                                     "accessibilityLabel": "₩159,765 · 2박",
                                                     "price": "₩159,765",
-                                                    "qualifier": "· 2박",
-                                                    "concatQualifierLeft": false,
-                                                    "trailing": null
-                                                },
-                                                "secondaryLine": null,
-                                                "explanationData": null,
-                                                "explanationDataDisplayPosition": null,
-                                                "displayPriceStyle": "TOTAL_ONLY"
+                                                    "qualifier": "· 2박"
+                                                }
                                             },
                                             "structuredContent": {
-                                                "__typename": "ExploreStructuredContent",
                                                 "primaryLine": [
                                                     {
-                                                        "__typename": "MainSectionMessage",
                                                         "body": "3월 6일~8일"
                                                     }
                                                 ]
                                             },
                                             "title": "대구의 아파트",
-                                            "propertyId": null,
-                                            "listing": {
-                                                "__typename": "StaySearchResultListing",
-                                                "structuredContent": null
-                                            },
                                             "avgRatingA11yLabel": "평점 5.0점(5점 만점)",
                                             "avgRatingLocalized": "5.0"
                                         },
@@ -3007,6 +2892,1536 @@
                                         }
                                     ]
                                 }
+                            },
+                            {
+                                "type": "experience",
+                                "sectionId": "https://www.airbnb.co.kr/s/%EC%84%9C%EC%9A%B8/experiences?place_id=ChIJzzlcLQGifDURm_JbQKHsEX4&refinement_paths%5B%5D=%2Fexperiences&search_type=HOMEPAGE_CAROUSEL_CLICK",
+                                "sectionData": {
+                                    "title": "서울의 체험",
+                                    "items": [
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-161886/original/b41b237a-a9ce-4e8c-b19e-0ea2f67f824f.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩25,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "절대적인 즐거움 - 서울 펍 투어",
+                                            "avgRatingLocalized": "4.82"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-3634744/original/6da0a7b1-ca4a-4e9e-803e-acf7a68ef1c7.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩10,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "홍대에서 즐기는 국제 언어 교류",
+                                            "avgRatingLocalized": "4.84"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/lombard/MtTemplate-1469132-active_media/original/3b9b8a1a-8770-4a4b-ab4b-a6d1c6112502.jpg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩72,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "고즈넉한 한옥에서 즐기는 나만의 향수 만들기 체험",
+                                            "avgRatingLocalized": "4.94"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/lombard/MtTemplate-405465-active_media/original/86b8e90a-015f-4803-97a9-7adb8b2c916c.jpg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩105,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "야시장 음식 탐방",
+                                            "avgRatingLocalized": "4.96"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/lombard/MtTemplate-4217908-active_media/original/04ae2d4d-d5dc-478a-be7e-f8512da5671e.jpg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩105,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "서울 야규 경기 관람 & 현지인 저녁 식사",
+                                            "avgRatingLocalized": "4.95"
+                                        },
+                                         {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-1143839/original/4af80e36-2349-411c-abb4-9dd6b0ee657c.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩45,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "현지 역사학자와 함께하는 달빛아래 즐기는 도보 투어",
+                                            "avgRatingLocalized": "4.95"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4837890/original/8d3410d6-30f9-45b3-a48f-2a748b273e90.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩44,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "호스트가 엄선한 이달의 한국식 바비큐 맛집",
+                                            "avgRatingLocalized": "4.91"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-2947475/original/071b8526-b6eb-4754-aacb-8944517affe1.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩200,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "서울에서 즐기는 케이팝 보컬 트레이닝",
+                                            "avgRatingLocalized": "4.94"
+                                        }                                                                                                                                                                                                                                                                                       
+                                     ]
+                                }
+                            },{
+                                "type": "experience",
+                                "sectionId": "https://www.airbnb.co.kr/s/%EB%B6%80%EC%82%B0/experiences?place_id=ChIJNc0j6G3raDURpwhxJHTL2DU&refinement_paths%5B%5D=%2Fexperiences&search_type=HOMEPAGE_CAROUSEL_CLICK",
+                                "sectionData": {
+                                    "title": "부산의 체험",
+                                    "items": [
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4523689/original/094bce9d-def1-4255-82a6-80e78ad637c6.png?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩30,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "부산 바다에서 요트투어 즐기기",
+                                            "avgRatingLocalized": "4.96"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4877049/original/87d7216a-d88f-4fc4-8c7a-089b1e164e56.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩25,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "부산 바다를 즐기며 요트 타기",
+                                            "avgRatingLocalized": "4.98"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-396379/original/be631afb-7d9a-4c2c-afce-4e4ad06a2efa.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩25,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "부산 펍 투어",
+                                            "avgRatingLocalized": "4.82"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-619791/original/77d66332-b59c-4d51-baad-690fdfcf9ec4.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩30,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "세일링 부산 Sailing Tour",
+                                            "avgRatingLocalized": "4.98"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-347909/original/46915371-1583-4ebe-8e06-47dbbf9356be.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩60,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "천연 성분으로 스킨케어 비누 만들기",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                         {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-203632/original/d011d55d-c056-4f7d-926e-16f934a5d923.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩75,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "소규모 부산야경 스냅투어",
+                                            "avgRatingLocalized": "4.92"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-1453664/original/7ab32a6c-6e3c-45eb-9469-7320e8b4d87c.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩37,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "빛나는 자개반지, 오른 하루 나만의 작품으로",
+                                            "avgRatingLocalized": "4.99"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4185550/original/95bfc74f-ed81-4008-b92f-eb6357e5ada6.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩30,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "Create mother-of-pearl crafts , 한국의 멋 자개공예원데이클래스",
+                                            "avgRatingLocalized": "4.98"
+                                        }                                                                                                                                                                                                                                                                                       
+                                     ]
+                                }
+                            },{
+                                "type": "experience",
+                                "sectionId": "https://www.airbnb.co.kr/s/%EC%A0%9C%EC%A3%BC%EB%8F%84/experiences?place_id=ChIJ_XltioXgDDUR4pyR4WmImks&refinement_paths%5B%5D=%2Fexperiences&search_type=HOMEPAGE_CAROUSEL_CLICK",
+                                "sectionData": {
+                                    "title": "제주도의 체험",
+                                    "items": [
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-3017103/original/9d222bc7-bb42-4bb8-907c-3dd298730a84.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩40,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "제주에서 커스텀 악세서리 만들기",
+                                            "avgRatingLocalized": "4.95"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4079458/original/47dc33c1-02d7-446c-9fd9-6f63d27a65f1.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩35,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "제주도에서 차 한 잔의 매력에 빠져보세요",
+                                            "avgRatingLocalized": "4.94"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-2081180/original/055e7e9f-76e9-4a70-bb83-984085c01d7f.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩50,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "여행 추억을 담은 나만의 향수 만들기",
+                                            "avgRatingLocalized": "4.95"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-434822/original/770418df-0248-4e93-bcce-e04b46d4ca81.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩60,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "100년 된 제주 흙집에서 흙으로 만드는 예술소품",
+                                            "avgRatingLocalized": "4.93"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-1534594/original/f3607ffd-cdf1-45fb-891f-85c70271475f.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩45,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "오름과 곶자왈을 걸으며 재밌는 이야기를 듣고 인생사진도 남겨보세요",
+                                            "avgRatingLocalized": "4.97"
+                                        },
+                                         {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-3538939/original/09454dfd-da1a-4006-8626-aef0c9a58c0d.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩38,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "제주 바다를 닮은 비누 만들기",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-5751124/original/5d150f25-221d-49db-b1e0-0c5051847677.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩29,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "제주 여행의 시작을 위한 역사 투어",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-273437/original/7589ca48-5b00-455b-899c-994a3620c7b5.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩85,600 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "제주도 가죽공방 친환경 가죽공예 체험 클래스",
+                                            "avgRatingLocalized": "4.97"
+                                        }                                                                                                                                                                                                                                                                                       
+                                     ]
+                                }
+                            },{
+                                "type": "experience",
+                                "sectionId": "https://www.airbnb.co.kr/s/%EC%98%A4%EC%82%AC%EC%B9%B4%EC%8B%9C/experiences?place_id=ChIJ4eIGNFXmAGAR5y9q5G7BW8U&refinement_paths%5B%5D=%2Fexperiences&search_type=HOMEPAGE_CAROUSEL_CLICK",
+                                "sectionData": {
+                                    "title": "오사카의 체험",
+                                    "items": [
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4710272/original/3d9ace70-1a93-435b-82c4-c160914b3765.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩56,162 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "오사카의 전용 주방에서 라멘 만들기 체험!",
+                                            "avgRatingLocalized": "4.91"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-1018635/original/ad28ee81-3c81-4128-a072-226d54dc0bad.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩74,883 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "현지인만 아는 오사카 바 투어",
+                                            "avgRatingLocalized": "4.99"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4388157/original/ab5adef1-145c-4e0a-852c-4ca68c823971.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩37,442 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "오사카: 이자카야 바 가이드 도보 투어",
+                                            "avgRatingLocalized": "4.86"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-479461/original/1f0afb27-f088-4edb-b213-28ea6c7f219e.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩65,523 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "오사카 숨은 명소 탐방 - 홍등가 투어 & 식도락 어드벤처",
+                                            "avgRatingLocalized": "4.96"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-137439/original/cc5470f1-ad20-42db-9aa6-2c424dca8719.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩74,883 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "오사카에서 배우는 우동 만들기 클래스",
+                                            "avgRatingLocalized": "4.92"
+                                        },
+                                         {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/lombard/MtTemplate-107577-active_media/original/dd0b34c1-6237-4bb5-8dd8-f6ed96f4a0ba.jpg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩140,406 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "와규, 사시미, 사케 맛보기",
+                                            "avgRatingLocalized": "4.97"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-181327/original/0aa592e0-3d75-4edb-9afb-e8a0c0438bff.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩146,022 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "오사카 맛집 탐방 - 남바 푸드 투어",
+                                            "avgRatingLocalized": "4.99"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-110508/original/d45fab1f-c147-4b35-aab8-98c4b611e148.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩44,930 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "오사카의 숨은 명소 둘러보기(현지 간식 제공)",
+                                            "avgRatingLocalized": "4.86"
+                                        }                                                                                                                                                                                                                                                                                       
+                                     ]
+                                }
+                            },{
+                                "type": "experience",
+                                "sectionId": "https://www.airbnb.co.kr/s/%EA%B2%BD%EC%A3%BC%EC%8B%9C/experiences?place_id=ChIJHQMN-EZOZjURCcjQz-6WFTc&refinement_paths%5B%5D=%2Fexperiences&search_type=HOMEPAGE_CAROUSEL_CLICK",
+                                "sectionData": {
+                                    "title": "경주시의 체험",
+                                    "items": [
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-3663242/original/16e90f54-3f6d-43e9-953c-b2df56adbff4.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩100,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "현지 전문가와 함께 전통 한국주 양조하기",
+                                            "avgRatingLocalized": "4.91"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-3581084/original/977cdb7e-37d6-4334-828e-6a3d731b3368.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩50,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "색감 미쳤다 내손으로 만드는 경주꽃다식 Korean Dessert",
+                                            "avgRatingLocalized": "4.92"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6742614/original/c20547ce-8dc5-4ffc-b3f7-d6330562a365.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩80,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "경주에서 요리로 만나는 한식문화 쿠킹클래스",
+                                            "avgRatingLocalized": "4.81"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6809211/original/d5eec667-7601-4d01-9406-b4b598ec08ec.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩40,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "무형문화재 이수자에게 신라만파식적대금 배우기",
+                                            "avgRatingLocalized": "4.82"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6533877/original/4d998f70-dc06-4f4e-846f-dfc7d74bf8e7.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩36,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "가야금 연주자와 아리랑 연주 체험하기",
+                                            "avgRatingLocalized": "4.92"
+                                        },
+                                         {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6550856/original/53015fbe-0af9-4c99-b372-a9e14bdbef2a.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩53,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "경주에서 진행되는 소규모 프라이빗 김밥 클래스",
+                                            "avgRatingLocalized": "4.88"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6865380/original/979acb0b-050e-4c07-b267-c597b29640f5.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩20,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "경주: 현지 가이드와 함께하는 도보 투어",
+                                            "avgRatingLocalized": "4.84"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-3589882/original/bff08a11-e038-4cb9-a7d3-642474af6b9e.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩50,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "경주에서 배우는 달콤한 에어비앤비 화과자 Korean Dessert",
+                                            "avgRatingLocalized": "4.93"
+                                        }                                                                                                                                                                                                                                                                                       
+                                     ]
+                                }
+                            },{
+                                "type": "service",
+                                "sectionId": "",
+                                "sectionData": {
+                                    "title": "셰프",
+                                    "items": [
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/lombard/MtTemplate-1270677-active_media/original/64a9113d-05fa-44f7-95c8-24088567bf0d.jpg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩125,866 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "정통 로마 요리",
+                                            "avgRatingLocalized": "4.97"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6068057/original/4bc4102d-3381-40b8-bf43-be3142c040ee.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "최소 예약 요금 ₩728,711"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "1인당 ₩71,557 부터"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "현지 식재료로 만든 요리 - Clair",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6099393/original/6cc0ffd7-bd7c-450b-9be0-a4ff434c6308.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "최소 예약 요금 ₩204,869"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "1인당 ₩117,068 부터"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "불꽃과 퓨전 맛의 비밀을 엿보는 시간",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-5982667/original/ccf6d547-5504-4188-9bf7-6e61169b8ce6.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "최소 예약 요금 ₩1,168,274"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "1인당 ₩248,258 부터"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "리자가 선보이는 활기찬 캘리포니아-지중해식 요리",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6093232/original/e4b6f0c2-8816-4c16-80ff-9649a67bc842.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩25,000 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "크리스티나와 함께하는 카탈루냐 요리",
+                                            "avgRatingLocalized": "4.97"
+                                        },
+                                         {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6074083/original/3c9d07cf-cddf-489e-a850-ebe3ada9cf45.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩131,431 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "브라이언과 함께하는 세계 각국의 미식 퓨전 요리",
+                                            "avgRatingLocalized": "4.98"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6068103/original/d3900905-e8ea-4c41-ae4f-bab115e3e842.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩71,557 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "일론카와 함께하는 샤르퀴트리 보드 만들기",
+                                            "avgRatingLocalized": "4.91"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-5982668/original/7e6bdc5f-27c2-4fac-b323-2943a0402ace.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩172,320 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "비건 요리 체험: LA에서 즐기는 개인 셰프의 채식 요리",
+                                            "avgRatingLocalized": "5.0"
+                                        }                                                                                                                                                                                                                                                                                       
+                                     ]
+                                }
+                            },{
+                                "type": "service",
+                                "sectionId": "",
+                                "sectionData": {
+                                    "title": "트레이닝",
+                                    "items": [
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6095518/original/5f40307a-a40f-4d7e-9948-5a768af19c8b.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩248,258 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "마이애미, 미국"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "데이턴과 함께하는 개인 트레이닝",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6099352/original/4739de7e-1648-41f8-8fba-5c68967ca7a9.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "최소 예약 요금 ₩292,069"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "1인당 ₩36,509 부터"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "줄리아와 함께하는 요가 수련",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6089722/original/a9b1fbc7-6912-459f-85bb-ba9749bad9cb.jpeg?im_w=720"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩233,655 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "Redondo Beach, 미국"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "Vicky와 함께하는 에너지 넘치는 운동",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6058137/original/745cf093-7f9b-4e22-96b6-b036418fe04d.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩99,303 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "로스엔젤레스, 미국"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "회복 피트니스 by Taylor",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6056059/original/2adb850a-d47f-4d1b-948f-b0f26845c296.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩73,017 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "패서디나, 미국"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "피터와 함께하는 전신 트레이닝",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-3246613/original/568717ca-33c8-4fec-9e67-5c1b479abca1.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩39,022 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "Zapopan, 멕시코"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "아나 폰조의 리추얼 요가 - 파르케 메트로폴리타노",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6081161/original/99d040cb-125c-4ace-b6f1-9ddf35e818ff.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩146,034 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "샌디에이고, 미국"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "니샨트와 함께하는 태양 아래에서 땀 흘리기",
+                                            "avgRatingLocalized": "5.0"
+                                        }                                                                                                                                                                                                                                                                                   
+                                     ]
+                                }
+                            },{
+                                "type": "service",
+                                "sectionId": "",
+                                "sectionData": {
+                                    "title": "마사지",
+                                    "items": [
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Services-123/original/9fdf25ec-ef31-4d43-b040-9ed15f0a644a.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩92,679 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "하비에르와 함께하는 휴식과 딥티슈 마사지",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Services-123/original/765f80bc-3ae0-48fb-b08f-cf98f1186bdf.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                                {
+                                                    "text": "인기"
+                                                }
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩219,051 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "훌륭한 마사지 모바일 서비스",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Services-123/original/58378f6b-148c-4224-97d4-487de57d31b8.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩149,332 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "올가와 함께하는 딥티슈 마사지 - 런던",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6109472/original/89a9dad7-c2f6-4607-a9f2-fe1149dc27af.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩116,827 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+
+                                                ]
+                                            },
+                                            "title": "마사지 이스케이프 가이: 집에서 즐기는 마사지",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Services-123/original/765f80bc-3ae0-48fb-b08f-cf98f1186bdf.jpeg?im_w=960"
+                                                }
+                                            ],
+                                             "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩110,506 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "마드리드, 스페인"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "호르헤와 함께하는 편안한 마사지",
+                                            "avgRatingLocalized": "5.0"
+                                        },                                           
+                                         {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Services-123/original/c45323ea-ab55-4eff-a02a-da0e009acd95.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩262,862 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "팰멋, 미국"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "제나와 함께하는 아로마테라피 마사지",
+                                            "avgRatingLocalized": "5.0"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-6029674/original/3bcfac60-007a-417a-949e-9327f0f46cc4.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩248,258 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "로스엔젤레스, 미국"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "디지 & 팀과 함께하는 할리우드 회복과 휴식",
+                                            "avgRatingLocalized": "4.73"
+                                        },
+                                        {
+                                            "contextualPictures": [
+                                                {
+                                                    "picture": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-Services-123/original/6ba42ce9-01bb-44ad-b5f0-026e2bbe4547.jpeg?im_w=960"
+                                                }
+                                            ],
+                                            "badges": [
+                                            ],
+                                            "structuredDisplayPrice": {
+                                                "primaryLine": {
+                                                    "accessibilityLabel": "1인당 ₩248,258 부터"
+                                                }
+                                            },
+                                            "structuredContent": {
+                                                "primaryLine": [
+                                                {
+                                                    "body": "홈스테드, 미국"
+                                                }
+
+                                                ]
+                                            },
+                                            "title": "Lisa Joy와 함께하는 편안한 휴식",
+                                            "avgRatingLocalized": "4.0"
+                                        }                                                                                                                                                                                                                                                                                     
+                                     ]
+                                }
                             }
+                            
+                        
                         ]
 }
